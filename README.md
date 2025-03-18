@@ -66,6 +66,12 @@ Creamos el par de claves y la guardmos en nuestro ordenador
 
 Los primeros pasos del apartado de la configuracion de la red es , enlazarlo a la VPC (vendra directamente en la congiguracion) y la subred que deseemos, en este caso "Subnet-linux"
 
+### CUANDO VOY A CONECTAR ATRA VEZ DE SSH ME ERROR , Y ME PASA LO MISMO AL CONECTARLA DESDE LA AMAZON SERVICE, HE ESTADO MIRANDO PASO POR PASO POR SI HABIA ALGUN ERROR Y NO SOY CAPAZ DE ENCONTRARLO
+
+![alt text](./imagenes/error.png)
+
+
+
 
 # SECURITY GROUPS AWS 
 
@@ -116,4 +122,7 @@ npm run dev
 ```
 Optendremos la direccion para conectarnos a nuestra pagina.
 
+![alt text](./imagenes/pagina-web.png)
+
+Aqui podemos ver como qeudaria la pagina web dps de editarla
 
