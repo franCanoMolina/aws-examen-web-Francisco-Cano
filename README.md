@@ -126,3 +126,22 @@ Optendremos la direccion para conectarnos a nuestra pagina.
 
 Aqui podemos ver como qeudaria la pagina web dps de editarla
 
+# PULL REQUEST
+
+![alt text](./imagenes/1-real.png)
+
+Primero clonaremos el reposirotio de nuestro compañero en nuestro equipo y le crearemos unas nueva rama.
+
+![alt text](./imagenes/1.png)
+
+En esta nuevca rama modificamos el documento para hacerle la mejora, en este caso le hemos mejorado el tirulo del documento.
+
+![alt text](./imagenes/2.png)
+
+Cuando terminemos de hacer las modificacion guardaremos la informacion y haremos un commit.
+
+Despues de esto haremos un push a GitHub.
+
+![alt text](./imagenes/3.png)
+
+Por ultimos aremos el push request donde comentaremos los modificaciones que hemos hecho y el compañero las tendra que aceptar 
