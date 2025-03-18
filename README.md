@@ -44,8 +44,8 @@ Configuramos la tabla de enrutamiento con:
 ![](./imagenes/edit-ruta.png)
 
 Editaremos la ruta con una en (0.0.0.0/0) y el destino "pueta de enlace internet"
-
-# EC2 CREACION DE INSTANCIAS 
+ 
+# EC2 CREACION DE INSTANCIAS (UBUNTU)
 
 ![](./imagenes/configuracion-ec2-1.png)
 
@@ -66,6 +66,35 @@ Creamos el par de claves y la guardmos en nuestro ordenador
 
 Los primeros pasos del apartado de la configuracion de la red es , enlazarlo a la VPC (vendra directamente en la congiguracion) y la subred que deseemos, en este caso "Subnet-linux"
 
+# EC2 CREACION DE INSTANCIAS (WINDOW)
+
+![alt text](./imagenes/ecs-window.png)
+
+Empezamos la configuracion poniendo nombre y SO deseaso, en este caso ahora escogeremos window y de imagen la predeterminada por el programa
+
+![alt text](./imagenes/tipo-instancia-window.png)
+
+En el tipo de instancia escogeremos en este caso: t3.medium
+
+![alt text](./imagenes/par-d-clasves-window.png)
+
+haremos un nuevo par de claves para esta instancia
+
+![alt text](./imagenes/salida-window.png)
+
+de esta forma configuraremos las reglas de salida
+
+![alt text](./imagenes/entradaaa.png)
+
+Y de esta formas las de entrada 
+
+
+
+
+
+
+
+
 # SECURITY GROUPS AWS 
 
 ![alt text](./imagenes/config-seguridad.png)
@@ -79,6 +108,8 @@ En las reglas de entrada pondremos estas configuraciones
 ![alt text](./imagenes/salida.png)
 
 Y en la de salida estas configuraciones
+
+
 
 
 
