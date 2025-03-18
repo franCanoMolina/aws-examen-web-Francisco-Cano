@@ -66,34 +66,6 @@ Creamos el par de claves y la guardmos en nuestro ordenador
 
 Los primeros pasos del apartado de la configuracion de la red es , enlazarlo a la VPC (vendra directamente en la congiguracion) y la subred que deseemos, en este caso "Subnet-linux"
 
-# EC2 CREACION DE INSTANCIAS (WINDOW)
-
-![alt text](./imagenes/ecs-window.png)
-
-Empezamos la configuracion poniendo nombre y SO deseaso, en este caso ahora escogeremos window y de imagen la predeterminada por el programa
-
-![alt text](./imagenes/tipo-instancia-window.png)
-
-En el tipo de instancia escogeremos en este caso: t3.medium
-
-![alt text](./imagenes/par-d-clasves-window.png)
-
-haremos un nuevo par de claves para esta instancia
-
-![alt text](./imagenes/salida-window.png)
-
-de esta forma configuraremos las reglas de salida
-
-![alt text](./imagenes/entradaaa.png)
-
-Y de esta formas las de entrada 
-
-
-
-
-
-
-
 
 # SECURITY GROUPS AWS 
 
@@ -109,26 +81,39 @@ En las reglas de entrada pondremos estas configuraciones
 
 Y en la de salida estas configuraciones
 
+# PROYECYO VITE
 
+![alt text](./imagenes/vite-1.png)
+Para empezar un proyecto vite usaremos el comando
 
+```
+npm init vite@latest .
 
+```
 
+Le escogeremos un nombre en este caso: web-francisco-cano
 
+A continuacion escogeremos el framework: vanilla, y variant: Javascript
 
+![alt text](./imagenes/vite-install.png)
 
+Despues de esta configuracion , lo instalaremos con el comando:
+```
+npm install
+```
+![alt text](./imagenes/final-final-vite.png)
+Con el comando:
+```
+npm build
+```
+Nos dara los archivos creados , en nuestro proyecto vite
 
+![alt text](./imagenes/vite-final.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
+Por ultimo con el comando: 
+```
+npm run dev 
+```
+Optendremos la direccion para conectarnos a nuestra pagina.
 
 
