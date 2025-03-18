@@ -1,11 +1,11 @@
 # CREAR UNA VPC EN AWS
 ![](./imagenes/image.png)
 
-Configutamos la VPC con:
+Configuramos la VPC con:
 - Nombre "mi-vpc-Francsico-Cano." 
 - el CIDR Block: 10.0.0.0/16
 
-## CREACION DE UNA SUDRET
+## CREACION DE UNA SUBRED
 ![](./imagenes/nombre-subred.png)
 
 Escogeremos el id de la VPC creada anteriormente
@@ -24,7 +24,7 @@ Para la configuracion de la segunda subred, volveremos a escoger el id de la VPC
 - nombre: "subnet-windows:"
 - CIDR: 10.0.2.0/24
 
-## CREACION DE UNA INTERNET GATEWAY
+## CREACION DE UN GATEWAY
 
 ![](./imagenes/gatwey.png) 
 
