@@ -66,6 +66,27 @@ Creamos el par de claves y la guardmos en nuestro ordenador
 
 Los primeros pasos del apartado de la configuracion de la red es , enlazarlo a la VPC (vendra directamente en la congiguracion) y la subred que deseemos, en este caso "Subnet-linux"
 
+# SECURITY GROUPS AWS 
+
+![alt text](./imagenes/config-seguridad.png)
+
+Empezamos con la configuracion de el grupo de seguridad poniendole un nombre: server-group-Francisco-Cano, y enlazando la VPC deseada
+
+![alt text](./imagenes/entrada.png)
+
+En las reglas de entrada pondremos estas configuraciones 
+
+![alt text](./imagenes/salida.png)
+
+Y en la de salida estas configuraciones
+
+
+
+
+
+
+
+
 
 
 
