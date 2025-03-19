@@ -126,6 +126,8 @@ Optendremos la direccion para conectarnos a nuestra pagina.
 
 Aqui podemos ver como qeudaria la pagina web dps de editarla
 
+## EL APARTADO DEL PROYECTO VITE LO HE TENIDO QUE HACER DENTRO DE ESTE PROYECTO YA QUE LA PARTE FINAL DE LA CREACION DE L A INSTANCIA ME DA ERROR Y HE PREFERIDO HACERLO AQUI PARA QUE PUEDAS VER AUNQUE SEA QUW SW HACERLA
+
 # PULL REQUEST
 
 ![alt text](./imagenes/1-real.png)
